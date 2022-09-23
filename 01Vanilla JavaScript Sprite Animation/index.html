@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vanilla JavaScript Sprite Animation Example</title>
+	<link rel="stylesheet" href="style.css">
+
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<h1>Vanilla JavaScript Sprite Animation Example</h1>
+
+	<div class="container">
+		<label for="animations">Please choose an animation: </label>
+
+		<select name="animations" id="animations" class="animations">
+			<option value="idle" selected>idle</option>
+			<option value="jump">Jump</option>
+			<option value="fall">Fall</option>
+			<option value="run">Run</option>
+			<option value="dizzy">Dizzy</option>
+			<option value="sit">Sit</option>
+			<option value="roll">Roll</option>
+			<option value="bite">Bite</option>
+			<option value="ko">KO</option>
+			<option value="getHit">Get Hit</option>
+		</select>
+	</div>
+
+	<canvas></canvas>
+
+	<p>Note: Use <code>defer</code> (best & recommended way) or Place your JavaScript in bottom before closing body tag. Otherwise your js may run before the DOM renders, which will let you document.querySelector method return null.</p>
+
+	<p>Note2: Use <code>array.name</code> to set name as a property of an array, associating with <code>loc</code>(an array contains all the coordinates of a state), then we can change the animation by selecting the name of state.</p>
+
+
+
+
+
+
+
+
+</body>
+</html>

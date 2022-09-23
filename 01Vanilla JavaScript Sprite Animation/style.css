@@ -1,0 +1,20 @@
+
+body {
+	font-size: 20px;
+}
+
+canvas {
+	border: 5px solid gray;
+	width: 600px;
+	height: 600px;
+}
+
+.container {
+	display: flex;
+	padding: 0;
+	margin: 20px auto;
+}
+
+.container select, .container option {
+	font-size: 24px;
+}

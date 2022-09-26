@@ -3,3 +3,11 @@ body {
 	font-size: 20px;
 }
 
+.container {
+	width: 800px;
+	margin: 20px 0;
+}
+
+input[type=range] {
+	width: 100%;
+}
